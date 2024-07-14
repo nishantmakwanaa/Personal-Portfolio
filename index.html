@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo.png" />
+    <title>Nishant Makwana - Portfolio</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div class="theme-switch" onclick="toggleDarkMode()">
+          <i class="bx bx-moon" id="icon-moon"></i>
+          <i class="bx bx-sun" id="icon-sun"></i>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Resume</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#achievements" class="nav__link">Achievements</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="home bd-grid home-position" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'm <span class="home__title-color">Nishant</span
+            ><br />Software Developer
+          </h1>
+          <a href="mailto:nishantmakwanacreations@gmail.com" class="button"
+            >Hire Me</a
+          >
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="/assets/dp.jpg" alt="" />
+          </div>
+          <div>
+            <h2 class="about__subtitle">I'm Nishant Makwana.</h2>
+            <p class="about__text">
+              Passionate 19-Year-Old IT Prodigy Proficient In Java, JavaScript
+              And Python, Specializing In Full Stack Web Development, Machine
+              Learning & Data Science. Also Been A Finalist At SSIP
+              Hackathon'23. Experienced Java Remote Intern At CodSoft, Now
+              Contributing To Open Source Via GirlScript Summer Of Code.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Resume</h2>
+        <div class="skills__container bd-grid home-position">
+          <div class="work__img resume__img">
+            <a
+              href="https://drive.google.com/file/d/1cyrMa5We4LJWO1Z4RFo8TpxXPi-T0sO0/view?usp=drive_link"
+              target="_blank"
+            >
+              <img src="/assets/resume.png" alt="" class="skills__img" />
+              <span class="text-overlay">Download Resume</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <h2 class="section-title">Projects</h2>
+        <div class="work__container bd-grid">
+          <div class="work__item">
+            <a
+              href="https://mycodeeditor.vercel.app/"
+              class="work__img"
+              target="_blank"
+            >
+              <img
+                src="/assets/code-editor-project.png"
+                alt="AI Code Editor Project"
+              />
+              <span class="text-overlay">Live Project Link</span>
+            </a>
+            <div class="work__description">
+              <h3 class="work__title">AI Code Editor</h3>
+              <p class="work__details">
+                An AI-Powered Code Editor That Enhances Coding Experience With
+                Intelligent Code Suggestions And Syntax Highlighting.
+              </p>
+            </div>
+          </div>
+
+          <div class="work__item">
+            <a
+              href="https://minejobportal.000webhostapp.com/"
+              class="work__img"
+              target="_blank"
+            >
+              <img
+                src="/assets/job-portal-project.png"
+                alt="Job Recruitment Portal Project"
+              />
+              <span class="text-overlay">Live Project Link</span>
+            </a>
+            <div class="work__description">
+              <h3 class="work__title">Job Recruitment Portal</h3>
+              <p class="work__details">
+                A Platform For Job Seekers And Recruiters To Connect, Featuring
+                Job Listings, Applicant Tracking, And Resume Management.
+              </p>
+            </div>
+          </div>
+
+          <div class="work__item">
+            <a
+              href="https://myselfnishant.github.io/Personal-Portfolio/"
+              class="work__img"
+              target="_blank"
+            >
+              <img
+                src="/assets/personal-portfolio-project.png"
+                alt="Personal Portfolio Project"
+              />
+              <span class="text-overlay">Live Project Link</span>
+            </a>
+            <div class="work__description">
+              <h3 class="work__title">Personal Portfolio</h3>
+              <p class="work__details">
+                Nishant'S Professional Portfolio Showcasing Skills, Projects,
+                And Achievements, Designed For A Modern And Interactive
+                Experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievements section" id="achievements">
+        <h2 class="section-title">Achievements</h2>
+        <div class="achievements__container bd-grid">
+          <div class="achievement__item">
+            <div class="achievement__icon">
+              <img
+                src="/assets/ssip-hackathon.jpeg"
+                alt="Achievement Icon"
+                style="border-radius: 0.5rem"
+              />
+            </div>
+            <div class="achievement__details">
+              <h3 class="achievement__title">State-Level Hackathon Finalist</h3>
+              <p class="achievement__description">
+                Awarded Finalist Place In The Gujarat State Hackathon 2023 For
+                Innovative Project Development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__title">Eat, Sleep, Code, Repeat.</p>
+      <div class="footer__social">
+        <a href="https://www.linkedin.com/in/onlynishant/" class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/myselfnishant" class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://twitter.com/NishantMakwanaa/" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/nishantmakwanaa/"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@nishantmakwanaa" class="footer__icon"
+          ><i class="bx bxl-youtube"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; nishanrmakwanacreations@gmail.com</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
