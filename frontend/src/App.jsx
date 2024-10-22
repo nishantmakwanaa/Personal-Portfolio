@@ -7,6 +7,7 @@ import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Achievements from "./pages/Achievements";
 import { init } from "./utils/utils";
+import "./index.css";
 
 function App() {
   useEffect(() => {
