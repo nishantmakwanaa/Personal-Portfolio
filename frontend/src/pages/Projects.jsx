@@ -104,28 +104,6 @@ const Projects = () => {
 
         <div class="work__item">
           <a
-            href="https://minejobportal.000webhostapp.com/"
-            class="work__img"
-            target="_blank"
-          >
-            <img
-              src={jobPortalProject}
-              alt="Job Recruitment Portal Project"
-              class="skills__img"
-            />
-            <span class="text-overlay">Project Link</span>
-          </a>
-          <div class="work__description">
-            <h3 class="work__title">Job Portal</h3>
-            <p class="work__details">
-              A Platform For Job Seekers And Recruiters To Connect, Featuring
-              Job Listings, Applicant Tracking, And Resume Management.
-            </p>
-          </div>
-        </div>
-
-        <div class="work__item">
-          <a
             href="https://www.nishantworldwide.in"
             class="work__img"
             target="_blank"
