@@ -1,7 +1,6 @@
-import codeEditorProject from "../assets/codeEditorProject.png";
-import eWasteRecyclingApp from "../assets/eWasteRecyclingApp.jpg";
-import handsFreePcController from "../assets/handsFreePcController.png";
-import humanPostureDetectionApp from "../assets/humanPostureDetectionApp.png";
+import codeEditorProject from "../assets/aiCodeEditor.png";
+import eWasteRecyclingApp from "../assets/eWasteRecycling.png";
+import yogaAssistant from "../assets/yogaAssistant.png";
 import portfolioProject from "../assets/portfolioProject.png";
 
 const Projects = () => {
@@ -33,7 +32,7 @@ const Projects = () => {
 
         <div className="work__item">
           <a
-            href="https://github.com/nishantmakwanaa/E-Waste-Recycling-App/"
+            href="https://wasterecycling.vercel.app/"
             className="work__img"
             target="_blank"
           >
@@ -56,46 +55,22 @@ const Projects = () => {
 
         <div className="work__item">
           <a
-            href="https://github.com/nishantmakwanaa/Hands-Free-PC-Controller"
+            href="https://yogaassistant.vercel.app/"
             className="work__img"
             target="_blank"
           >
             <img
-              src={handsFreePcController}
+              src={yogaAssistant}
               alt="Job Recruitment Portal Project"
               className="skills__img"
             />
             <span className="text-overlay">Project Link</span>
           </a>
           <div className="work__description">
-            <h3 className="work__title">Hands-Free PC Controller</h3>
+            <h3 className="work__title">AI Yoga Assistant App</h3>
             <p className="work__details">
-              An AI-Powered PC Controller That Enables Complete Hands-Free
-              Operation Through Voice, Gesture, And Eye Tracking For A Seamless
-              User Experience.
-            </p>
-          </div>
-        </div>
-
-        <div className="work__item">
-          <a
-            href="https://github.com/nishantmakwanaa/Human-Posture-Detection-App"
-            className="work__img"
-            target="_blank"
-          >
-            <img
-              src={humanPostureDetectionApp}
-              alt="Job Recruitment Portal Project"
-              className="skills__img"
-            />
-            <span className="text-overlay">Project Link</span>
-          </a>
-          <div className="work__description">
-            <h3 className="work__title">Human Posture Detection App</h3>
-            <p className="work__details">
-              An AI-Driven Posture Detection App That Monitors And Corrects Your
-              Posture in Real-Time, Promoting Healthier Habits And Reducing
-              Physical Strain.
+              An AI-Powered Yoga App That Enables Complete Humanless Assistance
+              Through Voice & Posture Assistance For A Seamless Yoga Experience.
             </p>
           </div>
         </div>
