@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { showMenu, init, toggleDarkMode } from "../utils/utils";
 
 const Header = () => {
@@ -61,6 +61,14 @@ const Header = () => {
                 onClick={() => scrollToSection("achievements")}
               >
                 Achievements
+              </span>
+            </li>
+            <li className="nav__item">
+              <span
+                className="nav__link"
+                onClick={() => scrollToSection("articles")}
+              >
+                Articles
               </span>
             </li>
           </ul>

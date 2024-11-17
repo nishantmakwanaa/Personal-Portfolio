@@ -1,4 +1,3 @@
-import React from "react";
 import profilePicture from "../assets/profilePicture.jpg";
 
 const About = () => {
@@ -6,7 +5,7 @@ const About = () => {
     <section className="about section" id="about">
       <h2 className="section-title">About</h2>
       <div className="about__container bd-grid">
-        <div className="about__img work__img">
+        <div className="about__img">
           <img
             src={profilePicture}
             alt="Nishant Makwana"
@@ -14,11 +13,13 @@ const About = () => {
           />
         </div>
         <div>
-          <h2 className="about__subtitle">I'm Nishant Makwana.</h2>
+          <h2 className="about__subtitle">My Self Nishant Makwana.</h2>
           <p className="about__text">
-            Passionate 19-Year-Old IT Prodigy Proficient In Java, JavaScript And
-            Python, Specializing In Full Stack Web Development, Machine Learning
-            & Data Science. Also Been A Finalist At SSIP Hackathon'23.
+            Passionate 19-Year-Old IT Prodigy Proficient In Java,
+            JavaScript/TypeScript And Python, Specializing In Full Stack Web
+            Development & App Development (React + React Native), Artificial
+            Intellingence, Machine Learning & Data Science. Also Been A Winner
+            At YogaTech Start-Up Event 2024 & Finalist At SSIP Hackathon 2023.
             Experienced Java Remote Intern At CodSoft, Now Contributing To Open
             Source Via GirlScript Summer Of Code.
           </p>
