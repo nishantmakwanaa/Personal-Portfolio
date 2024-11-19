@@ -1,5 +1,5 @@
 import ssipHackathon from "../assets/ssipHackathon.jpeg";
-import yogaTechChallange from "../assets/yogaTechChallange.jpeg";
+import yogaTechChallange from "../assets/yogaTechChallange.png";
 
 const Achievements = () => {
   return (
