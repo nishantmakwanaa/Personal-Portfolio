@@ -35,12 +35,16 @@ export const toggleDarkMode = () => {
   const iconMoon = document.getElementById("icon-moon");
   const iconSun = document.getElementById("icon-sun");
 
+  // Toggle the dark mode class
   body.classList.toggle("dark-mode");
 
+  // Save the theme preference to localStorage
   if (body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
     iconMoon.style.display = "none";
     iconSun.style.display = "block";
   } else {
+    localStorage.setItem("theme", "light");
     iconMoon.style.display = "block";
     iconSun.style.display = "none";
   }
@@ -63,5 +67,19 @@ export const initializeDarkModeIcons = () => {
 export const init = () => {
   showMenu("nav-toggle", "nav-menu");
   window.addEventListener("scroll", scrollActive);
+
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-mode");
+  } else {
+    document.body.classList.remove("dark-mode");
+  }
+
+  const hour = new Date().getHours();
+  if (hour >= 18 || hour < 6) {
+    document.body.classList.add("dark-mode");
+    localStorage.setItem("theme", "dark");
+  }
+
   initializeDarkModeIcons();
 };
