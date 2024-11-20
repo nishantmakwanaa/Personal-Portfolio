@@ -35,10 +35,8 @@ export const toggleDarkMode = () => {
   const iconMoon = document.getElementById("icon-moon");
   const iconSun = document.getElementById("icon-sun");
 
-  // Toggle the dark mode class
   body.classList.toggle("dark-mode");
 
-  // Save the theme preference to localStorage
   if (body.classList.contains("dark-mode")) {
     localStorage.setItem("theme", "dark");
     iconMoon.style.display = "none";
@@ -76,7 +74,7 @@ export const init = () => {
   }
 
   const hour = new Date().getHours();
-  if (hour >= 18 || hour < 6) {
+  if (hour >= 18 || hour <= 6) {
     document.body.classList.add("dark-mode");
     localStorage.setItem("theme", "dark");
   }
