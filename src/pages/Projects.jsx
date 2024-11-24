@@ -1,7 +1,6 @@
 import codeEditorProject from "../assets/aiCodeEditor.png";
 import eWasteRecyclingApp from "../assets/eWasteRecycling.png";
 import yogaAssistant from "../assets/yogaAssistant.png";
-import portfolioProject from "../assets/portfolioProject.png";
 
 const Projects = () => {
   return (
@@ -71,28 +70,6 @@ const Projects = () => {
             <p className="work__details">
               An AI-Powered Yoga App That Enables Complete Humanless Assistance
               Through Voice & Posture Assistance For A Seamless Yoga Experience.
-            </p>
-          </div>
-        </div>
-
-        <div className="work__item">
-          <a
-            href="https://www.nishantworldwide.in"
-            className="work__img"
-            target="_blank"
-          >
-            <img
-              src={portfolioProject}
-              alt="Personal Portfolio Project"
-              className="skills__img"
-            />
-            <span className="text-overlay">Project Link</span>
-          </a>
-          <div className="work__description">
-            <h3 className="work__title">Personal Portfolio</h3>
-            <p className="work__details">
-              This Professional Portfolio Showcasing Skills, Projects, And
-              Achievements, Designed For A Modern And Interactive Experience.
             </p>
           </div>
         </div>

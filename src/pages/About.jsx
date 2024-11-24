@@ -15,13 +15,13 @@ const About = () => {
         <div>
           <h2 className="about__subtitle">My Self Nishant Makwana.</h2>
           <p className="about__text">
-            Passionate 19-Year-Old IT Prodigy Proficient In Java,
-            JavaScript/TypeScript And Python, Specializing In Full Stack Web
-            Development & App Development (React + React Native), Artificial
-            Intellingence, Machine Learning & Data Science. Also Been A Winner
-            At YogaTech Start-Up Event 2024 & Finalist At SSIP Hackathon 2023.
-            Experienced Java Remote Intern At CodSoft, Now Contributing To Open
-            Source Via GirlScript Summer Of Code.
+            My Name Is Nishant Makwana. A Passionate 19-Year-Old B. E. IT
+            Student Who Is Proficient In Java, JavaScript/TypeScript And Python.
+            Also, Specialized In Full Stack Web Development ( MERN Stack + Next
+            JS ) & Cross-Platform Mobile App Development ( React Native ),
+            Artificial Intellingence, Machine Learning & Data Science. Also,
+            Been A Winner At YogaTech Start-Up Event 2024 & Finalist At SSIP
+            Hackathon 2023. Experienced Java Remote Intern At CodSoft.
           </p>
         </div>
       </div>

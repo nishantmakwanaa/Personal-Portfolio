@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .dark-mode {
   background-color: #000;
   color: #fff;
@@ -489,6 +493,12 @@ img {
   transform: scale(1.1);
 }
 
+.contact__coffee-text {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -498,15 +508,6 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
-}
-
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
 }
 
 .footer {

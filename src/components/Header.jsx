@@ -66,9 +66,9 @@ const Header = () => {
             <li className="nav__item">
               <span
                 className="nav__link"
-                onClick={() => scrollToSection("articles")}
+                onClick={() => scrollToSection("contact")}
               >
-                Articles
+                Contact
               </span>
             </li>
           </ul>
