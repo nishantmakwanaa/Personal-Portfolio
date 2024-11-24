@@ -49,7 +49,7 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section-title">Contact Me</h2>
+      <h2 className="section-title">Contact</h2>
       <div>
         <div className="bd-grid">
           <form onSubmit={handleSubmit}>
