@@ -57,6 +57,11 @@
   color: black;
 }
 
+.dark-mode .contact__button {
+  background-color: white;
+  color: black;
+}
+
 .dark-mode .section {
   color: white;
 }
@@ -299,6 +304,7 @@ img {
 }
 
 .home__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   position: absolute;
   right: 0;
   bottom: 0;
@@ -337,6 +343,7 @@ img {
 }
 
 .about__img {
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   justify-self: center;
 }
 
@@ -508,6 +515,26 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+}
+
+.contact__button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.contact__button:hover {
+  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
 
 .footer {

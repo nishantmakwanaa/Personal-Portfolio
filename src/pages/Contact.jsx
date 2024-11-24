@@ -96,8 +96,8 @@ const Contact = () => {
                 required
               ></textarea>
             </div>
-            <div>
-              <button type="submit" className="button">
+            <div className="contact__button-container">
+              <button type="submit" className="contact__button">
                 Send Message
               </button>
             </div>
