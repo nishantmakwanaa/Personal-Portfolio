@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { init, send } from "emailjs-com";
-import coffeeImage from "../assets/buyMeACoffee.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -51,21 +50,7 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
       <h2 className="section-title">Contact Me</h2>
-      <div className="about__container bd-grid">
-        <div className="about__img">
-          <a
-            href="https://www.buymeacoffee.com/nishantmakwanaa"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={coffeeImage}
-              alt="Buy Me a Coffee"
-              className="skills__img"
-            />
-          </a>
-          <p className="contact__coffee-text">Buy Me A Coffee !</p>
-        </div>
+      <div>
         <div className="bd-grid">
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
