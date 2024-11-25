@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer">
-      <p className="footer__title">Follow Me On Social Media :</p>
+      <p className="footer__title">Eat, Sleep, Code, Repeat.</p>
       <div className="footer__social">
         <a
           href="https://github.com/nishantmakwanaa"

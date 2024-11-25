@@ -517,6 +517,19 @@ img {
   margin-bottom: var(--mb-4);
 }
 
+.contact__input-textarea {
+  width: 100%;
+  height: 150px;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1.5px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+
 .contact__button-container {
   display: flex;
   justify-content: center;

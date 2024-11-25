@@ -90,7 +90,7 @@ const Contact = () => {
               <textarea
                 name="message"
                 placeholder="Your Message"
-                className="contact__input"
+                className="contact__input-textarea"
                 value={formData.message}
                 onChange={handleChange}
                 required
