@@ -18,11 +18,25 @@ const Footer = () => {
           <i className="bx bxl-instagram"></i>
         </a>
         <a
+          href="https://leetcode.com/u/nishantmakwanaa/"
+          className="footer__icon"
+          aria-label="LeetCode"
+        >
+          <i className="bx bx-code-block"></i>
+        </a>
+        <a
           href="https://www.linkedin.com/in/nishantmakwanaa/"
           className="footer__icon"
           aria-label="LinkedIn"
         >
           <i className="bx bxl-linkedin"></i>
+        </a>
+        <a
+          href="https://linktr.ee/nishantmakwanaa"
+          className="footer__icon"
+          aria-label="LinkTree"
+        >
+          <i className="bx bxs-tree"></i>
         </a>
         <a
           href="https://www.snapchat.com/add/nishantworldwid"

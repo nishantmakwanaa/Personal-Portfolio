@@ -5,7 +5,7 @@ export const showMenu = (toggleId, navId) => {
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
       nav.classList.toggle("show");
-      console.log("Menu toggled:", nav.classList.contains("show"));
+      console.log("Menu Toggled :", nav.classList.contains("show"));
     });
   }
 };
@@ -22,10 +22,12 @@ export const scrollActive = () => {
         `.nav__menu a[href*=${sectionId}]`
       );
 
-    if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
-      sectionsClass.classList.add("active-link");
-    } else {
-      sectionsClass.classList.remove("active-link");
+    if (sectionsClass) {
+      if (scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight) {
+        sectionsClass.classList.add("active-link");
+      } else {
+        sectionsClass.classList.remove("active-link");
+      }
     }
   });
 };
