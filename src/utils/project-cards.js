@@ -12,7 +12,7 @@ export const projects = [
     title: "Voice PC Controller",
     description:
       "A Voice-Controlled PC Assistant That Lets You Operate Your Computer Hands-Free.",
-    link: "https://github.com/nishantmakwana/Voice-PC-Controller",
+    link: "https://github.com/nishantmakwana/voice-pc-controller",
     img: placeholderImage,
     alt: "Voice PC Controller",
   },
@@ -20,7 +20,7 @@ export const projects = [
     title: "Learning Platform",
     description:
       "An Educational Platform That Provides Online Courses, Interactive Quizzes, And Learning Resources.",
-    link: "https://github.com/nishantmakwana/Learning-Platform",
+    link: "https://github.com/nishantmakwana/learning-platform",
     img: placeholderImage,
     alt: "Learning Platform",
   },
@@ -28,7 +28,7 @@ export const projects = [
     title: "Job Portal",
     description:
       "A Platform To Help Job Seekers Find Opportunities And Employers Post Job Openings.",
-    link: "https://github.com/nishantmakwana/Job-Portal",
+    link: "https://github.com/nishantmakwana/job-portal",
     img: placeholderImage,
     alt: "Job Portal",
   },
@@ -36,7 +36,7 @@ export const projects = [
     title: "Clothing Store",
     description:
       "An E-Commerce Platform That Allows Users To Browse And Purchase Clothing Items.",
-    link: "https://github.com/nishantmakwana/Clothing-Store",
+    link: "https://github.com/nishantmakwana/clothing-store",
     img: placeholderImage,
     alt: "Clothing Store",
   },
@@ -59,7 +59,7 @@ export const projects = [
     title: "Random Password Generator",
     description:
       "A Tool To Generate Strong Random Passwords With Customizable Length And Characters.",
-    link: "https://bestpasswordgenerator.vercel.app/s",
+    link: "https://bestpasswordgenerator.vercel.app/",
     img: passwordGenerator,
     alt: "Random Password Generator",
   },
@@ -67,7 +67,7 @@ export const projects = [
     title: "Personal Portfolio",
     description:
       "A Portfolio Website Showcasing My Projects, Skills, And Achievements.",
-    link: "https://www.nishantworldwide.in/",
+    link: "https://portfolioofnishant.vercel.app/",
     img: portfolio,
     alt: "Personal Portfolio",
   },
