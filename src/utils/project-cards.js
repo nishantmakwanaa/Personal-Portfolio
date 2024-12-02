@@ -12,7 +12,7 @@ export const projects = [
     title: "Voice PC Controller",
     description:
       "A Voice-Controlled PC Assistant That Lets You Operate Your Computer Hands-Free.",
-    link: "https://github.com/nishantmakwana/voice-pc-controller",
+    link: "https://github.com/nishantmakwanaa/voice-pc-controller",
     img: placeholderImage,
     alt: "Voice PC Controller",
   },
@@ -20,7 +20,7 @@ export const projects = [
     title: "Learning Platform",
     description:
       "An Educational Platform That Provides Online Courses, Interactive Quizzes, And Learning Resources.",
-    link: "https://github.com/nishantmakwana/learning-platform",
+    link: "https://github.com/nishantmakwanaa/learning-platform",
     img: placeholderImage,
     alt: "Learning Platform",
   },
@@ -28,7 +28,7 @@ export const projects = [
     title: "Job Portal",
     description:
       "A Platform To Help Job Seekers Find Opportunities And Employers Post Job Openings.",
-    link: "https://github.com/nishantmakwana/job-portal",
+    link: "https://github.com/nishantmakwanaa/job-portal",
     img: placeholderImage,
     alt: "Job Portal",
   },
@@ -36,7 +36,7 @@ export const projects = [
     title: "Clothing Store",
     description:
       "An E-Commerce Platform That Allows Users To Browse And Purchase Clothing Items.",
-    link: "https://github.com/nishantmakwana/clothing-store",
+    link: "https://github.com/nishantmakwanaa/clothing-store",
     img: placeholderImage,
     alt: "Clothing Store",
   },
