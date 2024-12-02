@@ -7,6 +7,7 @@ import Resume from "./pages/Resume";
 import Projects from "./pages/Projects";
 import Achievements from "./pages/Achievements";
 import Contact from "./pages/Contact";
+import Skills from "./pages/Skills";
 import { init } from "./utils/utils";
 import "./index.css";
 
@@ -31,6 +32,9 @@ function App() {
         <section id="resume">
           <Resume />
         </section>
+        <section id="skills">
+          <Skills />
+        </section>
         <section id="projects">
           <Projects />
         </section>
@@ -39,7 +43,7 @@ function App() {
         </section>
         <section id="contact">
           <Contact />
-        </section>
+        </section>{" "}
       </main>
       <Footer />
     </>

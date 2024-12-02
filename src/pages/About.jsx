@@ -9,7 +9,7 @@ const About = () => {
           <img
             src={profilePicture}
             alt="Nishant Makwana"
-            className="skills__img"
+            className="about__img"
           />
         </div>
         <div>

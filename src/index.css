@@ -52,6 +52,10 @@
   color: black;
 }
 
+.dark-mode .text-overlay::after {
+  color: white;
+}
+
 .dark-mode .button {
   background-color: white;
   color: black;
@@ -419,30 +423,30 @@ img {
   border-radius: 0.5rem;
 }
 
-.work__container {
+.projects__container {
   row-gap: 2rem;
 }
 
-.work__img {
+.projects__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
-.work__img img {
+.projects__img img {
   transition: 1s;
 }
 
-.work__img {
+.projects__img {
   position: relative;
   display: inline-block;
 }
 
-.work__img:hover img {
+.projects__img:hover img {
   filter: brightness(80%);
 }
 
-.work__img .text-overlay {
+.projects__img .text-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -454,20 +458,26 @@ img {
   transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-.work__img:hover .text-overlay {
+.projects__img:hover .text-overlay {
   visibility: visible;
   opacity: 1;
+}
+
+.resume-position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-overlay {
   display: inline-block;
   padding: 5px 10px;
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   font-size: 10px;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  color: white;
   border-radius: 0.5rem;
   border: 1.5px solid var(--second-color);
   text-align: center;
@@ -478,7 +488,8 @@ img {
 }
 
 .text-overlay:hover {
-  background-color: #000;
+  background-color: white;
+  color: black;
 }
 
 .text-overlay::after {
@@ -496,7 +507,7 @@ img {
   opacity: 1;
 }
 
-.work__img img:hover {
+.projects__img img:hover {
   transform: scale(1.1);
 }
 
@@ -614,13 +625,7 @@ img {
     text-align: initial;
   }
 
-  .skills__container {
-    grid-template-columns: 0.7fr;
-    justify-content: center;
-    column-gap: 1rem;
-  }
-
-  .work__container {
+  .projects__container {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
@@ -631,7 +636,7 @@ img {
     padding-top: 2rem;
   }
 
-  .contact__container {
+  .projects__container {
     justify-items: center;
   }
 }
@@ -694,14 +699,7 @@ img {
     width: 300px;
   }
 
-  .skills__container {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 2rem;
-    align-items: center;
-    text-align: initial;
-  }
-
-  .work__container {
+  .projects__container {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
