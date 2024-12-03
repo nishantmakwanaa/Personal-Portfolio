@@ -4,7 +4,7 @@ import yogaAssistant from "../assets/yogaAssistant.png";
 import placeholderImage from "../assets/comingSoon.jpeg";
 import algorithmVisualizer from "../assets/algorithmVisualizer.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
-import clothingShop from "../clothingShop.png";
+import clothingShop from "../assets/clothingShop.png";
 import portfolio from "../assets/portfolio.png";
 import ticTacToe from "../assets/ticTacToe.png";
 
