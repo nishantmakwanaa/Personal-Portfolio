@@ -6,7 +6,7 @@ const Resume = () => {
       <h2 className="section-title">Resume</h2>
       <div className="resume__container bd-grid resume-position">
         <div className="resume__img">
-          <img src={resume} alt="" className="resume__img" />
+          <img src={resume} alt="" className="resume__img box__shadow" />
           <div
             style={{
               display: "flex",

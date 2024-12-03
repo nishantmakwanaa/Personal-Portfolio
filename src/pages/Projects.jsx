@@ -33,7 +33,7 @@ const Projects = () => {
             <img
               src={project.img}
               alt={project.alt}
-              className="projects__img"
+              className="projects__img box__shadow"
             />
             <div
               style={{
