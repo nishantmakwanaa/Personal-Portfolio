@@ -1,15 +1,22 @@
+import { useState } from "react";
 import { projects } from "../utils/project-cards";
 
 const Projects = () => {
+  const [showMore, setShowMore] = useState(false);
+
   const sortedProjects = [...projects].sort((a, b) =>
     a.title.localeCompare(b.title)
   );
+
+  const displayedProjects = showMore
+    ? sortedProjects
+    : sortedProjects.slice(0, 3);
 
   return (
     <section className="projects section" id="projects">
       <h2 className="section-title">Projects</h2>
       <div className="projects__container bd-grid">
-        {sortedProjects.map((project, index) => (
+        {displayedProjects.map((project, index) => (
           <div key={index} className="projects__item">
             <a
               href={project.link}
@@ -30,6 +37,13 @@ const Projects = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div
+        style={{ display: "flex", justifyContent: "center", marginTop: "1rem" }}
+      >
+        <button onClick={() => setShowMore(!showMore)} className="button">
+          {showMore ? "Show Less" : "Show More"}
+        </button>
       </div>
     </section>
   );

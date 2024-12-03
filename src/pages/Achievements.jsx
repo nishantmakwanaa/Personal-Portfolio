@@ -11,7 +11,7 @@ const Achievements = () => {
             <img
               src={ssipHackathon}
               alt="State-Level Hackathon Finalist"
-              className="skills__img"
+              className="achievement__img"
               style={{ borderRadius: "0.5rem" }}
             />
           </div>
@@ -33,7 +33,7 @@ const Achievements = () => {
             <img
               src={yogaTechChallange}
               alt="Yoga-Tech Challange Winner"
-              className="skills__img"
+              className="achievement__img"
               style={{ borderRadius: "0.5rem" }}
             />
           </div>
