@@ -329,6 +329,8 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 .button:hover {
@@ -364,36 +366,8 @@ img {
 .projects__img {
   border-radius: 0.5rem;
   overflow: hidden;
-}
-
-.projects__img img {
-  transition: 1s;
-}
-
-.projects__img {
   position: relative;
   display: inline-block;
-}
-
-.projects__img:hover img {
-  filter: brightness(80%);
-}
-
-.projects__img .text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 20px;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-.projects__img:hover .text-overlay {
-  visibility: visible;
-  opacity: 1;
 }
 
 .resume-position {
@@ -444,10 +418,6 @@ img {
   opacity: 1;
 }
 
-.projects__img img:hover {
-  transform: scale(1.1);
-}
-
 .contact__coffee-text {
   text-align: center;
   margin-top: 1rem;
@@ -492,6 +462,8 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 .contact__button:hover {
