@@ -4,6 +4,7 @@ import yogaAssistant from "../assets/yogaAssistant.png";
 import placeholderImage from "../assets/comingSoon.jpeg";
 import algorithmVisualizer from "../assets/algorithmVisualizer.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
+import clothingShop from "../clothingShop.png";
 import portfolio from "../assets/portfolio.png";
 import ticTacToe from "../assets/ticTacToe.png";
 
@@ -37,7 +38,7 @@ export const projects = [
     description:
       "An E-Commerce Platform That Allows Users To Browse And Purchase Clothing Items.",
     link: "https://github.com/nishantmakwanaa/clothing-store",
-    img: placeholderImage,
+    img: clothingShop,
     alt: "Clothing Store",
   },
   {
