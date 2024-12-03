@@ -5,6 +5,8 @@ import placeholderImage from "../assets/comingSoon.jpeg";
 import algorithmVisualizer from "../assets/algorithmVisualizer.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import clothingShop from "../assets/clothingShop.png";
+import learningPlatform from "../assets/learningPlatform.png";
+import jobPortal from "../assets/jobPortal.png";
 import portfolio from "../assets/portfolio.png";
 import ticTacToe from "../assets/ticTacToe.png";
 
@@ -22,7 +24,7 @@ export const projects = [
     description:
       "An Educational Platform That Provides Online Courses, Interactive Quizzes, And Learning Resources.",
     link: "https://github.com/nishantmakwanaa/learning-platform",
-    img: placeholderImage,
+    img: learningPlatform,
     alt: "Learning Platform",
   },
   {
@@ -30,7 +32,7 @@ export const projects = [
     description:
       "A Platform To Help Job Seekers Find Opportunities And Employers Post Job Openings.",
     link: "https://github.com/nishantmakwanaa/job-portal",
-    img: placeholderImage,
+    img: jobPortal,
     alt: "Job Portal",
   },
   {
