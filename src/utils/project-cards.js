@@ -23,7 +23,7 @@ export const projects = [
     title: "Learning Platform",
     description:
       "An Educational Platform That Provides Online Courses, Interactive Quizzes, And Learning Resources.",
-    link: "https://github.com/nishantmakwanaa/learning-platform",
+    link: "https://bestlearningplatform.vercel.app/",
     img: learningPlatform,
     alt: "Learning Platform",
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: "Job Portal",
     description:
       "A Platform To Help Job Seekers Find Opportunities And Employers Post Job Openings.",
-    link: "https://github.com/nishantmakwanaa/job-portal",
+    link: "https://bestjobportal.vercel.app/",
     img: jobPortal,
     alt: "Job Portal",
   },
