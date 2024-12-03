@@ -22,7 +22,7 @@ const Footer = () => {
           className="footer__icon"
           aria-label="LeetCode"
         >
-          <i className="bx bx-code-block"></i>
+          <i className="bx bx-code-curly"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/nishantmakwanaa/"

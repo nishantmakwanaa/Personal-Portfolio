@@ -15,7 +15,6 @@
 
 .theme-switch .bx {
   font-size: 1.5rem;
-  transition: color 0.3s ease;
 }
 
 .theme-switch.dark-mode .bx {
@@ -28,6 +27,10 @@
 
 .dark-mode .nav__link {
   color: white;
+}
+
+.dark-mode .nav__link:hover {
+  text-decoration-color: white;
 }
 
 .dark-mode .nav__toggle {
@@ -47,13 +50,8 @@
   box-shadow: 0 1px 1px rgb(255, 255, 255);
 }
 
-.dark-mode .text-overlay:hover {
+.dark-mode .nav__link:hover::after {
   background-color: white;
-  color: black;
-}
-
-.dark-mode .text-overlay::after {
-  color: white;
 }
 
 .dark-mode .button {
@@ -347,7 +345,6 @@ img {
 }
 
 .about__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   justify-self: center;
 }
 
@@ -357,7 +354,6 @@ img {
 }
 
 .achievement__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
 }
 
@@ -366,7 +362,6 @@ img {
 }
 
 .projects__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -407,14 +402,18 @@ img {
   align-items: center;
 }
 
+.resume__img img {
+  border-radius: 0.5rem;
+}
+
 .text-overlay {
   display: inline-block;
   padding: 5px 10px;
   background-color: black;
   color: white;
-  font-size: 10px;
+  font-size: 7px;
   font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
   color: white;
   border-radius: 0.5rem;
   border: 1.5px solid var(--second-color);
@@ -431,7 +430,7 @@ img {
 }
 
 .text-overlay::after {
-  font-weight: 900;
+  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;

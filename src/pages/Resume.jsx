@@ -5,15 +5,23 @@ const Resume = () => {
     <section className="resume section" id="resume">
       <h2 className="section-title">Resume</h2>
       <div className="resume__container bd-grid resume-position">
-        <div className="projects__img">
-          <a
-            href="https://drive.google.com/file/d/1l5bdBPI6YDx1kQBuY0VDV_NYYMb-IIAR/view?usp=sharing"
-            target="_blank"
+        <div className="resume__img">
+          <img src={resume} alt="" className="resume__img" />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "1rem",
+            }}
           >
-            <img src={resume} alt="" className="resume__img" />
-            <br />
-            <span className="text-overlay">Download Resume</span>
-          </a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=1l5bdBPI6YDx1kQBuY0VDV_NYYMb-IIAR"
+              download="Nishant'S-Resume.pdf"
+              className="button"
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
       </div>
     </section>
