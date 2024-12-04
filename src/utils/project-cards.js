@@ -1,11 +1,11 @@
 import codeEditorProject from "../assets/aiCodeEditor.png";
 import eWasteRecyclingApp from "../assets/eWasteRecycling.png";
 import yogaAssistant from "../assets/yogaAssistant.png";
-import placeholderImage from "../assets/comingSoon.jpeg";
 import algorithmVisualizer from "../assets/algorithmVisualizer.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import clothingShop from "../assets/clothingShop.png";
 import learningPlatform from "../assets/learningPlatform.png";
+import voicePcController from "../assets/voicePcController.png";
 import jobPortal from "../assets/jobPortal.png";
 import portfolio from "../assets/portfolio.png";
 import ticTacToe from "../assets/ticTacToe.png";
@@ -16,7 +16,7 @@ export const projects = [
     description:
       "A Voice-Controlled PC Assistant That Lets You Operate Your Computer Hands-Free.",
     link: "https://github.com/nishantmakwanaa/voice-pc-controller",
-    img: placeholderImage,
+    img: voicePcController,
     alt: "Voice PC Controller",
   },
   {
