@@ -38,9 +38,9 @@ const Achievements = () => {
             />
           </div>
           <div className="achievement__details">
-            <h3 className="achievement__title">Yoga-Tech Challange Winner</h3>
+            <h3 className="achievement__title">Yoga-Tech Challenge Winner</h3>
             <p className="achievement__description">
-              Awarded Winner Place In The Yoga-Tech Challange National-Level
+              Awarded Winner Place In The Yoga-Tech Challenge National-Level
               Start-Up Event 2024 For Innovative AI-Assistanted Yoga App.
             </p>
           </div>
