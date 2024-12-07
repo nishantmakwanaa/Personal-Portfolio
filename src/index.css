@@ -68,11 +68,6 @@
   color: black;
 }
 
-.dark-mode .section {
-  color: white;
-  border-bottom: 1px solid #fff;
-}
-
 .dark-mode .section-title {
   color: white;
 }
@@ -179,10 +174,9 @@ img {
   background-color: var(--first-color);
 }
 
-.section {
+section {
   padding-top: 1rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
 }
 
 .bd-grid {
