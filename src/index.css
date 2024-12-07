@@ -70,6 +70,7 @@
 
 .dark-mode .section {
   color: white;
+  border-bottom: 1px solid #fff;
 }
 
 .dark-mode .section-title {
@@ -179,8 +180,9 @@ img {
 }
 
 .section {
-  padding-top: 3rem;
-  padding-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #000;
 }
 
 .bd-grid {

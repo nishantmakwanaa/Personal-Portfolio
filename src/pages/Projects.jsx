@@ -29,32 +29,66 @@ const Projects = () => {
       <h2 className="section-title">Projects</h2>
       <div ref={projectsContainerRef} className="projects__container bd-grid">
         {displayedProjects.map((project, index) => (
-          <div key={index} className="projects__item">
+          <div
+            key={index}
+            className="projects__item border-2 border-black rounded-lg p-4"
+          >
             <img
               src={project.img}
               alt={project.alt}
               className="projects__img box__shadow"
             />
             <div
+              className="projects__buttons"
               style={{
                 display: "flex",
                 justifyContent: "center",
                 marginTop: "1rem",
+                gap: "1rem",
               }}
             >
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="button"
+              <div
                 style={{
-                  width: "100%",
                   display: "flex",
                   justifyContent: "center",
+                  width: "50%",
                 }}
               >
-                Visit Project
-              </a>
+                <a
+                  href={project.codelink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button"
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  Code
+                </a>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  width: "50%",
+                }}
+              >
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="button"
+                  style={{
+                    width: "100%",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
+                  Live
+                </a>
+              </div>
             </div>
             <div className="projects__description">
               <h3 className="projects__title">{project.title}</h3>
