@@ -21,7 +21,7 @@ export const projects = [
     alt: "Voice PC Controller",
     description:
       "A Voice-Controlled PC Assistant That Lets You Operate Your Computer Hands-Free.",
-    link: "https://github.com/nishantmakwanaa/voice-pc-controller",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/voice-pc-controller",
     skills: ["Python", "AI/ML", "Voice Recognition", "Electron.js"],
   },
@@ -49,7 +49,7 @@ export const projects = [
     title: "Clothing Store",
     description:
       "An E-Commerce Platform That Allows Users To Browse And Purchase Clothing Items.",
-    link: "https://github.com/nishantmakwanaa/clothing-store",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/clothing-store",
     img: clothingShop,
     alt: "Clothing Store",
@@ -128,7 +128,7 @@ export const projects = [
     title: "Metro App",
     description:
       "A Smart And User-Friendly App For Navigating Metro Systems With Real-Time Schedules, Routes, And Station Information.",
-    link: "https://github.com/nishantmakwanaa/metro-app",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/metro-app",
     img: metroApp,
     alt: "Metro App",
@@ -138,7 +138,7 @@ export const projects = [
     title: "Sorting Visualizer",
     description:
       "A Tool To Visualize Different Sorting Algorithms In Action, Allowing Users To See The Sorting Process Step By Step.",
-    link: "https://github.com/nishantmakwanaa/sorting-visualizer",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/sorting-visualizer",
     img: sortingVisualizer,
     alt: "Sorting Visualizer",
@@ -148,7 +148,7 @@ export const projects = [
     title: "Sudoku Solver",
     description:
       "A Web Application That Solves Sudoku Puzzles Using A Backtracking Algorithm And Provides A Step-By-Step Solution.",
-    link: "https://github.com/nishantmakwanaa/sudoku-solver",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/sudoku-solver",
     img: sudokuSolver,
     alt: "Sudoku Solver",
@@ -158,7 +158,7 @@ export const projects = [
     title: "File Zipper",
     description:
       "A Simple App To Compress Files Into A ZIP Format, Reducing File Size For Easier Sharing And Storage.",
-    link: "https://github.com/nishantmakwanaa/file-zipper",
+    link: "https://projectcomingsoon.vercel.app/",
     codelink: "https://github.com/nishantmakwanaa/file-zipper",
     img: fileZipper,
     alt: "File Zipper",
