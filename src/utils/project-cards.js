@@ -10,7 +10,6 @@ import jobPortal from "../assets/jobPortal.png";
 import portfolio from "../assets/portfolio.png";
 import ticTacToe from "../assets/ticTacToe.png";
 import metroApp from "../assets/metroApp.png";
-import sortingVisualizer from "../assets/sortingVisualizer.png";
 import sudokuSolver from "../assets/sudokuSolver.png";
 import fileZipper from "../assets/fileZipper.png";
 
@@ -133,16 +132,6 @@ export const projects = [
     img: metroApp,
     alt: "Metro App",
     skills: ["React.js", "Node.js", "API Integration"],
-  },
-  {
-    title: "Sorting Visualizer",
-    description:
-      "A Tool To Visualize Different Sorting Algorithms In Action, Allowing Users To See The Sorting Process Step By Step.",
-    link: "https://projectcomingsoon.vercel.app/",
-    codelink: "https://github.com/nishantmakwanaa/sorting-visualizer",
-    img: sortingVisualizer,
-    alt: "Sorting Visualizer",
-    skills: ["JavaScript", "Algorithms", "CSS Animations"],
   },
   {
     title: "Sudoku Solver",
