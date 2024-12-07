@@ -15,8 +15,8 @@ const Resume = () => {
             }}
           >
             <a
-              href="https://drive.google.com/uc?export=download&id=1l5bdBPI6YDx1kQBuY0VDV_NYYMb-IIAR"
-              download="Nishant'S-Resume.pdf"
+              href="https://drive.google.com/file/d/1uCLamKroG7do9mqKP1rsiAfzyjF0SL-U/view?usp=sharing"
+              download="Nishant Makwana'S Resume.pdf"
               className="button"
             >
               Download Resume
