@@ -39,7 +39,7 @@ const Footer = () => {
           <i className="bx bxs-tree"></i>
         </a>
         <a
-          href="https://www.snapchat.com/add/nishantworldwid"
+          href="https://www.snapchat.com/add/nishantmakwanaa"
           className="footer__icon"
           aria-label="SnapChat"
         >
