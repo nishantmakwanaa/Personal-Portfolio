@@ -4,7 +4,7 @@ const Footer = () => {
       <p className="footer__title">Eat, Sleep, Code, Repeat.</p>
       <div className="footer__social">
         <a
-          href="https://github.com/nishantmakwanaa"
+          href="https://github.com/nishantmakwanaa/"
           className="footer__icon"
           aria-label="GitHub"
         >
@@ -32,14 +32,14 @@ const Footer = () => {
           <i className="bx bxl-linkedin"></i>
         </a>
         <a
-          href="https://linktr.ee/nishantmakwanaa"
+          href="https://linktr.ee/nishantmakwanaa/"
           className="footer__icon"
           aria-label="LinkTree"
         >
           <i className="bx bxs-tree"></i>
         </a>
         <a
-          href="https://www.snapchat.com/add/nishantmakwanaa"
+          href="https://www.snapchat.com/add/nishantmakwanaa/"
           className="footer__icon"
           aria-label="SnapChat"
         >
@@ -53,7 +53,7 @@ const Footer = () => {
           <i className="bx bxl-twitter"></i>
         </a>
         <a
-          href="https://www.youtube.com/@nishantmakwanaa"
+          href="https://www.youtube.com/@nishantmakwanaa/"
           className="footer__icon"
           aria-label="YouTube"
         >
