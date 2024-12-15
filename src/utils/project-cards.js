@@ -48,7 +48,7 @@ export const projects = [
     title: "Clothing Store",
     description:
       "An E-Commerce Platform That Allows Users To Browse And Purchase Clothing Items.",
-    link: "https://projectcomingsoon.vercel.app/",
+    link: "https://drive.google.com/file/d/1Tw26fJthe1rTYito5aIdvj2wRLxtzfu9/view?usp=sharing",
     codelink: "https://github.com/nishantmakwanaa/clothing-store",
     img: clothingShop,
     alt: "Clothing Store",
